@@ -1,0 +1,64 @@
+
+
+.action {
+  cursor: pointer;
+  display: table-cell;
+  padding-left: 4px;
+  float: right;
+  margin-left: auto;
+}
+.node{list-style:none;white-space:nowrap;padding:4px;border-bottom: 1px solid #ccc;}.node.leaf.collapsed{display:none}.node.disabled>*{color:gray;cursor:not-allowed}.node.match-in-children.hide .node-label{opacity:.5}.node.focused{background-color:#f4f4f4}.toggle{white-space:pre;margin-right:4px;cursor:pointer}.toggle:after{content:" "}.toggle.collapsed:after{content:"+"; font-style: normal;}.toggle.expanded:after{content:"-"; font-style: normal;}.searchModeOn .toggle{display:none}.checkbox-item,.radio-item{vertical-align:middle;margin:0 4px 0 0}.checkbox-item.simple-select,.radio-item.simple-select{display:none}
+.tag{background-color:#f4f4f4;border:1px solid #e9e9e9;padding:2px 0 2px 2px;border-radius:2px;display:inline-block}.tag:focus-within{background-color:#e9e9e9;border-color:#a0a0a0}.tag-remove{color:#a0a0a0;font-size:75%;line-height:100%;cursor:pointer;background-color:transparent;border:none;outline:none}.tag-remove.disabled,.tag-remove.readOnly{cursor:not-allowed}.tag-remove:focus{color:#3c3c3c}
+ul.tag-list {
+  padding: 10px 10px;
+  border: 1px solid #333;
+  margin: 10px 0px;
+}
+
+ul.tag-list li {
+  display: inline-block;
+  padding: 4px 4px;
+}
+.tag-item .search {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+.roleMenu {
+  padding: 7px 20px;
+  border-radius: 3px;
+}
+.roleMenu:focus-visible{
+  outline:unset;
+}
+.roleType {
+  display: flex;
+  /* margin-left: 20px; */
+  margin-top: 10px;
+}
+.controlAccess {
+  margin: 20px 20px;
+}
+.controlRole{
+  margin:20px 20px 0 20px;
+}
+.react-dropdown-tree-select .dropdown-trigger {
+  display: none;
+}
+ul.root {
+  padding-left: 5px;
+  margin-top: 15px;
+}
+.form-select{
+  box-shadow: unset !important;
+  /* border: 1px solid #7e7676; */
+}
+.form-select:focus {
+  border-color: #ee3124;
+}
+/* .dropdown-content {
+  display: block !important;
+}
+.react-dropdown-tree-select .dropdown a.dropdown-trigger {
+  display: none !important;
+} */

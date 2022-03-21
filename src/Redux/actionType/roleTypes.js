@@ -1,0 +1,8 @@
+export const FETCH_ROLE_REQUEST = 'FETCH_ROLE_REQUEST'
+export const FETCH_ROLE_SUCCESS = 'FETCH_ROLE_SUCCESS'
+export const FETCH_ROLE_FAILURE = 'FETCH_ROLE_FAILURE'
+
+export const ADD_ROLE = 'ADD_ROLE'
+export const UPDATE_ROLE = 'UPDATE_ROLE'
+export const DELETE_ROLE = 'DELETE_ROLE'
+export const SEARCH_ROLE = 'SEARCH_ROLE'
